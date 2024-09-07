@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Tourism</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="home.css">
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">NT Tourism</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Explore">Explore</a></li>
+          <li><a href="#Rewards">Rewards</a></li>
+          <li><a href="#Personalize">Personalize</a></li>
+          <li><a href="#Events">Events</a></li>
+          <li><a href="#Register">Register</a></li>
+          <li><a href="#Login">Login</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Northern Territory</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#Explore" onclick="toggleMenu()">Explore</a></li>
+          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#Rewards" onclick="toggleMenu()">Rewards</a></li>
+          <li><a href="#Personalize" onclick="toggleMenu()">Personalize</a></li>
+          <li><a href="#Events" onclick="toggleMenu()">Events</a></li>
+          <li><a href="#Register" onclick="toggleMenu()">Register</a></li>
+          <li><a href="#Login" onclick="toggleMenu()">Login</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="Home">
+      <h1>Explore Northern Territory's Unique Experiences</h1>
+      <p>Discover cultural tourism and plan your adventure today!</p>
+      <button class="start-btn">Start</button>
+
+      <div class="card-container">
+        <div class="card">
+          <h3>Trip Planner</h3>
+          <p>Plan your journey with ease and fun.</p>
+        </div>
+        <div class="card">
+          <h3>Accommodation</h3>
+          <p>Find the perfect place to rest, from cozy stays to luxury retreats.</p>
+        </div>
+        <div class="card">
+          <h3>Transportation</h3>
+          <p>Discover the best ways to explore the NT by road, air, or sea.</p>
+        </div>
+        <div class="card">
+          <h3>Main Attractions</h3>
+          <p>Explore top attractions from landscapes to cultural gems.</p>
+        </div>
+        <div class="card">
+          <h3>Food</h3>
+          <p>Discover the flavors of NT, from local delights to global favorites.</p>
+        </div>
+        <div class="card">
+          <h3>Events</h3>
+          <p>Stay up-to-date with the latest NT festivals, markets, and shows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Explore" class="animate">
+      <p class="section__text__p1">Explore the best Northern Territory has to offer.</p>
+      <h1 class="title">Top Destinations</h1>
+      <div class="section-container">
+        <div class="section__pic-container-2">
+          <img src="kakadu.jpg" alt="Kakadu National Park" />
+        </div>
+        <div class="about-details-container">
+          <p>Experience the stunning landscapes of Kakadu National Park, from breathtaking waterfalls to Aboriginal rock art sites.</p>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section id="Rewards" class="animate">
+      <p class="section__text__p1">Earn rewards as you explore NT!</p>
+      <h1 class="title">Exclusive Rewards</h1>
+      <p>Join our rewards program to earn discounts, freebies, and special offers on your Northern Territory adventures.</p>
+    </section>
+
+    <section id="Personalize" class="animate">
+      <p class="section__text__p1">Create your personalized travel experience.</p>
+      <h1 class="title">Personalize Your Trip</h1>
+      <p>Use our trip builder to select destinations, accommodations, and activities tailored just for you.</p>
+    </section>
+
+    <section id="Events" class="animate">
+      <p class="section__text__p1">Stay up-to-date with NT's cultural calendar.</p>
+      <h1 class="title">Upcoming Events</h1>
+      <p>Explore the latest festivals, markets, and exhibitions happening across Northern Territory.</p>
+    </section>
+
+    <section id="Register" class="animate">
+      <p class="section__text__p1">Join the NT Tourism community.</p>
+      <h1 class="title">Register Now</h1>
+      <p>Create an account to save your trips, access rewards, and get personalized recommendations.</p>
+    </section>
+
+    <section id="Login" class="animate">
+      <p class="section__text__p1">Already a member?</p>
+      <h1 class="title">Login</h1>
+      <p>Sign in to access your account, view your trips, and redeem rewards.</p>
+    </section>
+    
+    <section id="Contact" class="animate">
+      <p class="section__text__p1">Have questions? We're here to help!</p>
+      <h1 class="title">Contact Us</h1>
+      <div class="contact-info-upper-container">
+        <p>Email: contact@nttourism.com</p>
+        <p>Phone: +61 8 1234 5678</p>
+        <p>Address: 123 Tourism Road, Darwin, NT</p>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
